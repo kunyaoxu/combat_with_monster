@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>web game</title>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/my.css">
+    <!-- <script data-main="scripts/main" src="scripts/require.js"></script> -->
+    <!-- defer -->
+    <!--     <script async type="text/javascript">
+    //TODO!
+    var img = new Image();
+    img.src = "player.png";
+    </script> -->
+    <script defer src="scripts/function.js"></script>
+    <script>
+    //when DOM already
+    $(function() {
+
+    })
+    </script>
+</head>
+
+<body id="page">
+    <div id="stage" class="stage">
+        <canvas id="canvas" class="stage1"></canvas>
+        <!--         <div id="player" class="game_object"></div>
+        <div id="enemy" class="game_object"></div>
+        <div id="bullet1" class="game_object bullets"></div> -->
+        <!--         <div id="player" class="circle"></div> -->
+    </div>
+    <div class="level">
+        <div class="sub_lab">
+            <span class="sub_lab_title">攻擊力</span>
+            <div class="val" id="atk_val">LV:0</div>
+        </div>
+        <div class="sub_lab">
+            <span class="sub_lab_title">攻擊速度</span>
+            <div class="val" id="frr_val">LV:0</div>
+        </div>
+        <div class="sub_lab">
+            <span class="sub_lab_title">移動速度</span>
+            <div class="val" id="spd_val">LV:0</div>
+        </div>
+        <div class="sub_lab">
+            <span class="sub_lab_title">升級點數</span>
+            <div class="val" id="up_val">0</div>
+        </div>
+        <div class="sub_lab">
+        </div>
+        <div class="sub_lab">
+            <span class="sub_lab_title">等級</span>
+            <div class="val" id="lv">0</div>
+        </div>
+        <div class="sub_lab">
+            <span class="sub_lab_title">生命</span>
+            <div class="val" id="life">0</div>
+        </div>
+    </div>
+</body>
+
+</html>
